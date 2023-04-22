@@ -1,0 +1,34 @@
+h1{
+  text-align:center;
+    color:white;
+
+}
+h3{
+  text-align:center;
+   color:white;
+}
+body{
+  background-image:url(https://www.bremenzwei.de/bilder/katzenbild-dpa-100~_v-1280x1280_c-1671205997682.jpg)
+    
+}
+.left{
+  float:left;
+  border: 2px solid red;
+}
+h2{
+  color:white;
+}
+.right{
+  float:right;
+  border: 2px solid red;
+}
+img{
+  width:400px;
+  height:300px;
+}
+.right:hover{
+  transform: rotate(10deg);
+}
+.left:hover{
+  transform: rotate(-10deg);
+}
